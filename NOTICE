@@ -1,0 +1,5 @@
+NOTICE
+
+NobodySelection is an open-source framework and demo under the MIT License.
+Do not commit real secrets. Use .env.example for local configuration.
+Optional brand images may be added under nobody-selection-web/public/images/.

@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# DBeaver 离线驱动（已弃用 DBeaver，使用 HeidiSQL；勿提交）
+scripts/drivers/*.jar
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Test / coverage
+coverage/
+
+# Temp
+*.tmp
+.cache/
