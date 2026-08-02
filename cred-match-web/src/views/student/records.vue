@@ -9,9 +9,9 @@
     <div class="records-wrap">
       <div v-if="hasBadge" class="badge-card as-glass">
         <span class="badge-label">AS-Badge</span>
-        <h2>NobodySelection学习凭证</h2>
+        <h2>CredMatch学习凭证</h2>
         <p class="badge-meta">教师 Aaron Smith · 认证 AS-2026-GZ-00001 · 综合表现 88</p>
-        <p class="badge-note">NobodySelection · 结课学习凭证</p>
+        <p class="badge-note">CredMatch · 结课学习凭证</p>
       </div>
 
       <div class="panel as-glass">

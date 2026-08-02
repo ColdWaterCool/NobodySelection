@@ -13,4 +13,4 @@
 | `/api/orders` | 订单与课时 |
 | `/api/admin` | 管理端能力 |
 
-具体路由与 DTO 以 `nobody-selection-server/src` 下各模块为准。数据库表结构见 `database-schema.md`。
+具体路由与 DTO 以 `cred-match-server/src` 下各模块为准。数据库表结构见 `database-schema.md`。

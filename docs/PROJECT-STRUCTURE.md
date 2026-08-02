@@ -1,15 +1,15 @@
-# NobodySelection 项目结构文档
+# CredMatch 项目结构文档
 
 ## 项目概述
-NobodySelection 是一个外教资格评定与匹配系统，采用前后端分离架构。
+CredMatch 是一个外教资格评定与匹配系统，采用前后端分离架构。
 
 ---
 
-## 📁 前端项目 (nobody-selection-web)
+## 📁 前端项目 (cred-match-web)
 
 ### 核心配置文件
 ```
-nobody-selection-web/
+cred-match-web/
 ├── index.html                    # 入口HTML文件
 ├── package.json                  # 前端依赖配置
 ├── vite.config.ts                # Vite构建配置（含API代理）
@@ -180,11 +180,11 @@ styles/                           # 全局样式
 
 ---
 
-## 📁 后端项目 (nobody-selection-server)
+## 📁 后端项目 (cred-match-server)
 
 ### 核心配置文件
 ```
-nobody-selection-server/
+cred-match-server/
 ├── package.json                  # 后端依赖配置
 ├── tsconfig.json                 # TypeScript配置
 ├── tsconfig.build.json           # 构建配置
@@ -373,7 +373,7 @@ DB_HOST=localhost
 DB_PORT=3306
 DB_USERNAME=root
 DB_PASSWORD=
-DB_DATABASE=nobody_selection
+DB_DATABASE=cred_match
 
 # JWT配置
 JWT_SECRET=your-secret-key
@@ -387,12 +387,12 @@ JWT_EXPIRES_IN=7d
 ### 首次启动
 ```bash
 # 前端
-cd nobody-selection-web
+cd cred-match-web
 npm install
 npm run dev
 
 # 后端
-cd nobody-selection-server
+cd cred-match-server
 npm install
 npm run start:dev
 ```

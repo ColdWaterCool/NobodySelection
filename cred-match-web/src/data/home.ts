@@ -1,8 +1,8 @@
 /** 首页品牌与展示数据 */
 
 export const BRAND = {
-  nameEn: 'NobodySelection',
-  nameZh: 'NobodySelection',
+  nameEn: 'CredMatch',
+  nameZh: 'CredMatch',
   slogan: 'One standard. Open to all.',
   sloganZh: '统一标准，向所有人开放',
   serviceTag: 'Open Teacher Credential & Matching Framework',
@@ -10,9 +10,9 @@ export const BRAND = {
   positioning: 'Verifiable credentials · Offline verification · Learner-linked ratings',
   positioningZh: '可验证资格 · 线下核验联动 · 与学生评定挂钩',
   description:
-    'NobodySelection explores a shared standard for foreign educator credentials — so institutions can verify, match, and improve teaching quality without locking into a single brand.',
+    'CredMatch explores a shared standard for foreign educator credentials — so institutions can verify, match, and improve teaching quality without locking into a single brand.',
   descriptionZh:
-    'NobodySelection 探索外教资格的统一可验证标准：机构可核验、匹配并提升教学质量，而不绑定单一商业品牌——通向更共通的认证秩序。',
+    'CredMatch 探索外教资格的统一可验证标准：机构可核验、匹配并提升教学质量，而不绑定单一商业品牌——通向更共通的认证秩序。',
 }
 
 /** 介绍区文案；头像路径可选，缺省时界面显示占位 */

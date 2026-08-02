@@ -6,13 +6,13 @@
         <router-link to="/" class="nav-brand">
           <ImageSlot
             src="/images/logo.png"
-            alt="NobodySelection"
+            alt="CredMatch"
             shape="rounded"
             size="sm"
             placeholder-icon="◇"
             placeholder-text="Logo"
           />
-          <span class="nav-brand-text">NobodySelection</span>
+          <span class="nav-brand-text">CredMatch</span>
         </router-link>
 
         <div class="header-right">
@@ -48,7 +48,7 @@
         <div class="logo-glass">
           <ImageSlot
             src="/images/logo.png"
-            alt="NobodySelection"
+            alt="CredMatch"
             shape="rounded"
             size="md"
             placeholder-icon="◇"
@@ -279,7 +279,7 @@
             <span class="title-en">Build Together</span>
           </h2>
           <p class="partner-desc">
-            学校、企业、文化空间 — 欢迎与 NobodySelection 共建外教生态与文化沉浸场景。
+            学校、企业、文化空间 — 欢迎与 CredMatch 共建外教生态与文化沉浸场景。
             提交后管理员将在后台「合作申请」中跟进。
           </p>
           <form class="partner-form" @submit.prevent="submitPartner">

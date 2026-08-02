@@ -4,13 +4,13 @@
 
 ## 导入前提
 
-1. MySQL 已启动，库 `nobody_selection` 已存在  
+1. MySQL 已启动，库 `cred_match` 已存在  
 2. 后端已至少启动过一次（`users`、`teachers` 表已创建）
 
 ## 导入命令（Windows）
 
 ```bat
-"C:\Program Files\MySQL\MySQL Server 8.4\bin\mysql.exe" -u root -p -h 127.0.0.1 nobody_selection < demo-users.sql
+"C:\Program Files\MySQL\MySQL Server 8.4\bin\mysql.exe" -u root -p -h 127.0.0.1 cred_match < demo-users.sql
 ```
 
 ## 测试账号

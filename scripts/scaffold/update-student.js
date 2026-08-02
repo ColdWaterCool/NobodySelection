@@ -208,5 +208,5 @@ function logout() {
 @media (max-width: 768px) { .sidebar { display: none; } .main-content { margin-left: 0; } }
 </style>`;
 
-fs.writeFileSync('nobody-selection-web/src/views/student/index.vue', content, 'utf8');
+fs.writeFileSync('cred-match-web/src/views/student/index.vue', content, 'utf8');
 console.log('Student dashboard updated successfully!');

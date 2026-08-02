@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "启动NobodySelection系统..."
+echo "启动CredMatch系统..."
 
 # 启动后端服务器
 echo "启动后端服务器..."
-cd nobody-selection-server
+cd cred-match-server
 npm run start:dev &
 cd ..
 
@@ -13,7 +13,7 @@ sleep 3
 
 # 启动前端开发服务器
 echo "启动前端开发服务器..."
-cd nobody-selection-web
+cd cred-match-web
 npm run dev &
 cd ..
 

@@ -77,8 +77,8 @@ function bootstrap() {
                     // Swagger documentation
                     if (configService.get('SWAGGER_ENABLED', true)) {
                         swaggerConfig = new swagger_1.DocumentBuilder()
-                            .setTitle('NobodySelection API')
-                            .setDescription('NobodySelection Server API Documentation')
+                            .setTitle('CredMatch API')
+                            .setDescription('CredMatch Server API Documentation')
                             .setVersion('1.0')
                             .addBearerAuth()
                             .build();
@@ -107,7 +107,7 @@ TypeOrmModule.forRootAsync({
         port: configService.get('DB_PORT', 3306),
         username: configService.get('DB_USERNAME', 'root'),
         password: configService.get('DB_PASSWORD', ''),
-        database: configService.get('DB_DATABASE', 'nobody_selection'),
+        database: configService.get('DB_DATABASE', 'cred_match'),
         entities: [__dirname + '/**/*.entity{.ts,.js}'],
         synchronize: configService.get('DB_SYNCHRONIZE', true),
         logging: configService.get('DB_LOGGING', false),

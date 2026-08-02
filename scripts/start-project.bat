@@ -1,12 +1,12 @@
 @echo off
-echo 启动NobodySelection系统...
+echo 启动CredMatch系统...
 
 :: 启动 MySQL（若未运行）
 call "%~dp0start-mysql.bat"
 
 :: 启动后端服务器
 echo 启动后端服务器...
-cd nobody-selection-server
+cd cred-match-server
 start npm run start:dev
 cd ..
 
@@ -15,7 +15,7 @@ timeout /t 3 /nobreak >nul
 
 :: 启动前端开发服务器
 echo 启动前端开发服务器...
-cd nobody-selection-web
+cd cred-match-web
 start npm run dev
 cd ..
 

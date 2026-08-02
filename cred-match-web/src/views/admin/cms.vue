@@ -3,7 +3,7 @@
     <div class="cms-grid">
       <div class="cms-card as-glass">
         <h3>首页 Banner</h3>
-        <div class="preview">NobodySelection · 外教资格评定与匹配</div>
+        <div class="preview">CredMatch · 外教资格评定与匹配</div>
         <button @click="showToast('编辑 Banner')">编辑</button>
       </div>
       <div class="cms-card as-glass">

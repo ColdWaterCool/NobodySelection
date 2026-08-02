@@ -1,4 +1,4 @@
-# NobodySelection
+# CredMatch
 
 开源的外教资格评定与匹配框架。
 
@@ -10,9 +10,9 @@
 
 外教选择常遇到三类问题：资格标准不统一、线上档案与线下实际脱节、学生学习评价难以反哺教师资质。
 
-NobodySelection 提供一套可自托管的协作骨架，覆盖学生、家长、外教与管理端，把**资格评定、线下核验联动、以及与学生评价相关联的可验证记录**放在同一套流程里。
+CredMatch 提供一套可自托管的协作骨架，覆盖学生、家长、外教与管理端，把**资格评定、线下核验联动、以及与学生评价相关联的可验证记录**放在同一套流程里。
 
-名称中的 Nobody 强调不绑定单一品牌；Selection 强调基于共同标准的选择。规则可复用、可扩展，便于机构自托管落地。
+名称 CredMatch = Credential + Match：用可验证的资格标准完成匹配。规则可复用、可扩展，便于机构自托管落地。
 
 ---
 
@@ -25,10 +25,10 @@ NobodySelection 提供一套可自托管的协作骨架，覆盖学生、家长�
 
 可选图片路径：
 
-- `nobody-selection-web/public/images/logo.png`
-- `nobody-selection-web/public/images/founder/portrait.png`
+- `cred-match-web/public/images/logo.png`
+- `cred-match-web/public/images/founder/portrait.png`
 
-说明见 `nobody-selection-web/public/images/README.md`。
+说明见 `cred-match-web/public/images/README.md`。
 
 ---
 
@@ -52,9 +52,9 @@ NobodySelection 提供一套可自托管的协作骨架，覆盖学生、家长�
 | 数据库 | MySQL（配置见 `.env.example`，示例数据见 `scripts/seed`） |
 
 ```text
-NobodySelection/
-├── nobody-selection-web/       # 前端（四端界面）
-├── nobody-selection-server/    # 后端 API
+CredMatch/
+├── cred-match-web/       # 前端（四端界面）
+├── cred-match-server/    # 后端 API
 ├── docs/                       # API 与数据结构说明
 ├── scripts/                    # 启动与初始化脚本
 ├── LICENSE
@@ -68,7 +68,7 @@ NobodySelection/
 需要：Node.js 20 LTS。MySQL 可选（后端不可用时，前端仍可进入演示模式）。
 
 ```powershell
-cd nobody-selection-web
+cd cred-match-web
 npm install
 npm run dev
 ```
@@ -76,7 +76,7 @@ npm run dev
 浏览器打开 http://localhost:5173 ，进入 `/auth` 选择角色登录。
 
 ```powershell
-cd nobody-selection-server
+cd cred-match-server
 copy .env.example .env
 npm install
 npm run start:dev

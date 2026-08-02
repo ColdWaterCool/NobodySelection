@@ -157,7 +157,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, _from, next) => {
-  document.title = `${String(to.meta.title || 'NobodySelection')} — 外教资格评定与匹配`
+  document.title = `${String(to.meta.title || 'CredMatch')} — 外教资格评定与匹配`
 
   if (to.name === 'Auth') {
     next()

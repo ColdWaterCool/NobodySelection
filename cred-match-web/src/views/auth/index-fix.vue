@@ -5,7 +5,7 @@
     <div class="auth-wrap">
       <div class="auth-card as-glass">
         <div class="auth-head">
-          <img src="/images/logo.png" alt="NobodySelection" class="auth-logo" />
+          <img src="/images/logo.png" alt="CredMatch" class="auth-logo" />
           <h2>登录 / 注册</h2>
           <p class="auth-sub">Sign In</p>
         </div>

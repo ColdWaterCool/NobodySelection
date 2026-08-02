@@ -25,7 +25,7 @@ import { TeacherModule } from './modules/teacher/teacher.module';
         port: configService.get<number>('DB_PORT', 3306),
         username: configService.get('DB_USERNAME', 'root'),
         password: configService.get('DB_PASSWORD', ''),
-        database: configService.get('DB_DATABASE', 'nobody_selection'),
+        database: configService.get('DB_DATABASE', 'cred_match'),
         entities: [__dirname + '/**/*.entity{.ts,.js}'],
         synchronize: configService.get<boolean>('DB_SYNCHRONIZE', true),
         logging: configService.get<boolean>('DB_LOGGING', false),

@@ -4,7 +4,7 @@ const authContent = `<template>
   <div class="auth-page">
     <div class="auth-container">
       <div class="auth-header">
-        <div class="logo">NobodySelection</div>
+        <div class="logo">CredMatch</div>
         <h2>登录 / 注册</h2>
       </div>
       
@@ -358,5 +358,5 @@ function quickLogin(role: string) {
 }
 </style>`;
 
-fs.writeFileSync('nobody-selection-web/src/views/auth/index.vue', authContent, 'utf8');
+fs.writeFileSync('cred-match-web/src/views/auth/index.vue', authContent, 'utf8');
 console.log('Updated: auth/index.vue - 开发者快速登录入口已添加');

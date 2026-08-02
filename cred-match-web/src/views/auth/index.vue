@@ -2,7 +2,7 @@
   <div class="auth-page">
     <div class="auth-container">
       <div class="auth-header">
-        <div class="logo">NobodySelection</div>
+        <div class="logo">CredMatch</div>
         <h2>登录 / 注册</h2>
       </div>
       

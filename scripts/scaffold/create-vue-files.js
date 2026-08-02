@@ -6,7 +6,7 @@ const homeContent = `<template>
   <div class="home">
     <header class="header">
       <div class="container">
-        <div class="logo">NobodySelection</div>
+        <div class="logo">CredMatch</div>
         <nav class="nav">
           <router-link to="/teachers">教师列表</router-link>
           <router-link to="/auth" class="btn-login">登录/注册</router-link>
@@ -29,7 +29,7 @@ const homeContent = `<template>
       </div>
     </section>
     <footer class="footer">
-      <p>&copy; 2025 NobodySelection. All rights reserved.</p>
+      <p>&copy; 2025 CredMatch. All rights reserved.</p>
     </footer>
   </div>
 </template>
@@ -75,7 +75,7 @@ const authContent = `<template>
   <div class="auth-page">
     <div class="auth-container">
       <div class="auth-header">
-        <div class="logo">NobodySelection</div>
+        <div class="logo">CredMatch</div>
         <h2>登录 / 注册</h2>
       </div>
       <div class="auth-form">
@@ -253,9 +253,9 @@ function goDetail(id: number) {
 
 // Write files
 const files = {
-  'nobody-selection-web/src/views/home/index.vue': homeContent,
-  'nobody-selection-web/src/views/auth/index.vue': authContent,
-  'nobody-selection-web/src/views/teacher/list.vue': teacherListContent
+  'cred-match-web/src/views/home/index.vue': homeContent,
+  'cred-match-web/src/views/auth/index.vue': authContent,
+  'cred-match-web/src/views/teacher/list.vue': teacherListContent
 };
 
 Object.entries(files).forEach(([filePath, content]) => {

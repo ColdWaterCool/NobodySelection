@@ -1,6 +1,6 @@
 # 历史脚手架（只读归档）
 
-> **请勿再次运行** — 会覆盖 `nobody-selection-web/src/views/` 下现有 Vue 文件。
+> **请勿再次运行** — 会覆盖 `cred-match-web/src/views/` 下现有 Vue 文件。
 
 | 文件 | 原用途 |
 |------|--------|

@@ -1,9 +1,9 @@
--- NobodySelection 演示数据（可安全提交 GitHub）
+-- CredMatch 演示数据（可安全提交 GitHub）
 -- 全部为虚构手机号与测试账号，不含真实用户信息
 -- 导入前请确保后端已至少启动过一次（TypeORM 已建表），或表结构已存在
 
 SET NAMES utf8mb4;
-USE nobody_selection;
+USE cred_match;
 
 -- 清空演示表（仅开发环境使用）
 SET FOREIGN_KEY_CHECKS = 0;

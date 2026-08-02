@@ -40,8 +40,8 @@ async function bootstrap() {
 
   if (configService.get<boolean>('SWAGGER_ENABLED', true)) {
     const swaggerConfig = new DocumentBuilder()
-      .setTitle('NobodySelection API')
-      .setDescription('NobodySelection Server API Documentation')
+      .setTitle('CredMatch API')
+      .setDescription('CredMatch Server API Documentation')
       .setVersion('1.0')
       .addBearerAuth()
       .build();

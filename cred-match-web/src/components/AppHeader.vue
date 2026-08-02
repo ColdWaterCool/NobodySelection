@@ -4,14 +4,14 @@
       <router-link to="/" class="brand">
         <ImageSlot
           src="/images/logo.png"
-          alt="NobodySelection"
+          alt="CredMatch"
           shape="rounded"
           size="sm"
           placeholder-icon="◇"
           placeholder-text="Logo"
         />
         <span class="brand-title">
-          <span class="zh">{{ titleZh || 'NobodySelection' }}</span>
+          <span class="zh">{{ titleZh || 'CredMatch' }}</span>
           <span class="en">{{ titleEn || 'Open Credential Framework' }}</span>
         </span>
       </router-link>
@@ -37,7 +37,7 @@ withDefaults(
     showAuth?: boolean
   }>(),
   {
-    titleZh: 'NobodySelection',
+    titleZh: 'CredMatch',
     titleEn: 'Open Credential Framework',
     showTitle: true,
     backLabel: '← 首页 Home',
