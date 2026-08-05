@@ -1,5 +1,8 @@
 # CredMatch
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-brightgreen)](https://nodejs.org/)
+
 开源的外教资格评定与匹配框架。
 
 **统一标准，向所有人开放** · One standard. Open to all.
